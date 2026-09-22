@@ -9,8 +9,34 @@ h3 {font-style: italic;}
 #p1 {text-align:center; font-size: 20px;}
 #p2 {font-size: 20px;}
 
-.box {width: 1000px; height: 415px; background-color:
-     #F5FBFF; margin: 10px; padding:auto }
-.Pic {width: 150px; height: 300px;}     
+.Card {text-align: center; display:flex; justify-content: center; 
+    align-items: center;}
+
+.box-flex {display: flex; 
+    flex-direction: row; 
+    gap: 100px; 
+    justify-content: center;
+    background-color: #F5FBFF; 
+    margin: 10px; padding: auto;
+    border: 1px solid #152b48;
+    border-radius: 14px;
+}
+
+.InfoBox-flex { display: flex;
+  flex-direction: column;
+  background-color: #F5FBFF; 
+  width: 30%;
+  padding: 60px 20px;
+  border: 1px solid #152b48;
+  border-radius: 14px;
+  text-align: center;}
+
+.Pic {width: 150px; 
+    height: 300px; 
+    padding:10px 20px; 
+    border: 1px solid #152b48;
+    border-radius: 14px;}     
 
 .btn {border-radius: 10px; background-color: #498ce1; color: white; }
+
+#p3 {font-size: 20px;}
