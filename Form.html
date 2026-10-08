@@ -1,0 +1,56 @@
+<html>
+<head>
+   <link rel="stylesheet" href="Style.CSS">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Tunisie Form</title>
+</head>    
+<body>
+ <header>
+  <nav class="navbar navbar-dark bg-dark">
+   <div class="row container-fluid">
+    <div class="col-8"> 
+      <a class="navbar-brand">
+      TUN
+      </a>
+    </div>
+    <div class="col-4 text-right g-3"> 
+     <button class="btn btn-light m-2">Plus</button>
+     <button class="btn btn-light m-2">Contact</button>
+     <button class="btn btn-light m-2">Langue</button>
+    </div>
+   </div>
+  </nav>
+
+    <h1 id="title">
+      Bienvenue en Tunisie
+   </h1>
+</header>
+<div class="container"  style="max-width: 500px;"> 
+<form class="d-flex flex-column justify-content-center " id="form">
+      <!-- Nom -->
+      <div class="mb-3">
+        <label for="name"  class="form-label">Nom</label>
+        <input type="text"  class="form-control" id="name" placeholder="Votre nom">
+      </div>
+      <!-- Email -->
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="text" class="form-control" id="email" placeholder="exemple@mail.com">
+      </div>
+      <!-- Mot de passe -->
+      <div class="mb-3">
+        <label for="password" class="form-label">Mot de passe</label>
+        <input type="password" class="form-control" id="password" placeholder="6 car. min, 1 maj, 1 min, 1 chiffre">
+      </div>
+      <!-- Téléphone -->
+      <div class="mb-3">
+        <label for="phone" class="form-label">Phone</label>
+        <input type="text" class="form-control" id="phone" placeholder="8 chiffres">
+      </div>
+      <button type="submit" class="btn btn-primary">Envoyer</button>
+    </form>
+</div>
+</body>
+ <script src="java.js"></script>
+</html> 
